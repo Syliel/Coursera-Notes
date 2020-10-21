@@ -24,6 +24,12 @@ detail about "us"
   <dd>A bit of data in a class</dd>
   <dt>Object or Instance</dt>
   <dd>A particular instance of a class</dd>
+  <dt>Attribute</dt>
+  <dd>A variable within a class</dd>       
+  <dt>Constructor</dt>
+  <dd>Code that runs when an object is created</dd>
+  <dt>Inheritance</dt>
+  <dd>The ability to extend a class to make a new class</dd>
 </dl>
 
 **Terminology: Class**  
@@ -57,18 +63,3 @@ An object's abilities. In language, methods are verbs. Lassie, being a Dog, has 
 * Write once - reuse many times
 * The new class (child) has all the capabilities of the old class (parent) - and then some more
 * 'Subclasses' are more specialized versions of a class, which inherit attributes and behaviors from their parents classes and can introduce their own
-
-<dl>
-  <dt>Class</dt>
-  <dd>A template</dd>  
-  <dt>Attribute</dt>
-  <dd>A variable within a class</dd>  
-  <dt>Method</dt>
-  <dd>A function within a class</dd>  
-  <dt>Object</dt>
-  <dd>A particular instance of a class</dd>
-  <dt>Constructor</dt>
-  <dd>Code that runs when an object is created</dd>
-  <dt>Inheritance</dt>
-  <dd>The ability to extend a class to make a new class</dd>
-</dl>
