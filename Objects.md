@@ -15,14 +15,15 @@ Dictionary Objects, List Objects...
 * Objects hide detail - the allow the "rest of the program" to ignore the
 detail about "us"
 
-Class
-: A template
-Method or Message
-: A defined capability of a class
-Field or attribute
-: A bit of data in a class
-Object or Instance
-: A particular instance of a class
+<dl>
+  <dt>Class</dt>
+  <dd>A template</dd>
+  <dt>Method or Message</dt>
+  <dd>A defined capability of a class</dd>
+  <dt>Field or attribute</dt>
+  <dd>A bit of data in a class</dd>
+  <dt>Object or Instance</dt>
+  <dd>A particular instance of a class</dd>
 
 TERMINOLOGY: CLASS
 Defines the abstract characteristics of a thing (object), including the thing's characteristics (its attributes, fields or properties) and the thing's behaviors (the thing it can do, or methods, operations or features). One might say that a class is a blueprint or factory that describes the nature of something. For example, the class Dog would consist of traits shared by all dogs, such as breed and fur color (characteristics), and the ability to bark and sit (behaviors)
