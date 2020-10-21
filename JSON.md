@@ -1,8 +1,9 @@
 JavaScript Object Notation
-* Douglas Crockford "Discovered" JSON *2001
+* Douglas Crockford "Discovered" JSON 2001
 * Object literal notation in JavaScript
 
-"""
+```python
+
 import json
 data = '''{
 "name" : "Chuck",
@@ -18,11 +19,12 @@ info = json.loads(data)
 print('Name:', info["name"])
 print('Hide:', info["email"]["hide"])
 
-"""
+```
 * JSON represents data as nested "lists" and "dictionaries"
 * Have lists and dictionaries and can be nested anyway you want. 
 
-"""
+```python
+
 import json
 input = '''[
 	{ "id"   : "001", 
@@ -42,4 +44,4 @@ for item in info:
 	print('Name', item['name'])
 	print('Id', item['id'])
 	print('Attribute', item['x'])
-"""
+```
