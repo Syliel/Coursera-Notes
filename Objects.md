@@ -5,7 +5,7 @@
 * A program is made up of one or more objects working together - objects
 make use of each other's capabilities
 
-## OBJECT
+## Object
 * An object is a bit of self-contained Code and Data
 * A key aspect of the Object approach is to break the problem into smaller
 understandable parts (divide and conquer)
@@ -24,14 +24,15 @@ detail about "us"
   <dd>A bit of data in a class</dd>
   <dt>Object or Instance</dt>
   <dd>A particular instance of a class</dd>
+</dl>
 
-TERMINOLOGY: CLASS
+**Terminology: Class**  
 Defines the abstract characteristics of a thing (object), including the thing's characteristics (its attributes, fields or properties) and the thing's behaviors (the thing it can do, or methods, operations or features). One might say that a class is a blueprint or factory that describes the nature of something. For example, the class Dog would consist of traits shared by all dogs, such as breed and fur color (characteristics), and the ability to bark and sit (behaviors)
 
-TERMINOLOGY: INSTANCE
+**Terminology: Instance**  
 One can have an instance of a class or a particular object. The instance is the actual object created at runtime. In programmer jargon, the Lassie object is an instance of the Dog class. The set of values of the attributes of a particular object is called its state. The object consists of a state and the behavior that's defined int he object's class. 
 
-TERMINOLOGY: METHOD
+**Terminology: Method**  
 An object's abilities. In language, methods are verbs. Lassie, being a Dog, has the ability to bark. So bark() is one of Lassie's methods. She may have other methods as well, for example sit() or eat() or walk() or save_timmy(). Within the program, using a method usually affects only one particular object; all Dogs can bark, but you need only one particular dog to do the barking.
 
 ## OBJECT LIFECYCLE
@@ -57,10 +58,17 @@ An object's abilities. In language, methods are verbs. Lassie, being a Dog, has 
 * The new class (child) has all the capabilities of the old class (parent) - and then some more
 * 'Subclasses' are more specialized versions of a class, which inherit attributes and behaviors from their parents classes and can introduce their own
 
-
-CLASS = A TEMPLATE  
-ATTRIBUTE = A VARIABLE WITHIN A CLASS  
-METHOD = A FUNCTION WITHIN A CLASS  
-OBJECT = A PARTICULAR INSTANCE OF A CLASS  
-CONSTRUCTOR = CODE THAT RUNS WHEN AN OBJECT IS CREATED  
-INHERITANCE = THE ABILITY TO EXTEND A CLASS TO MAKE A NEW CLASS 
+<dl>
+  <dt>Class</dt>
+  <dd>A template</dd>  
+  <dt>Attribute</dt>
+  <dd>A variable within a class</dd>  
+  <dt>Method</dt>
+  <dd>A function within a class</dd>  
+  <dt>Object</dt>
+  <dd>A particular instance of a class</dd>
+  <dt>Constructor</dt>
+  <dd>Code that runs when an object is created</dd>
+  <dt>Inheritance</dt>
+  <dd>The ability to extend a class to make a new class</dd>
+</dl>
