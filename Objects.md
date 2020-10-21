@@ -1,11 +1,11 @@
-OBJECT ORIENTED
+# OBJECT ORIENTED
 * A program is made up of many cooperating objects
 * Instead of being the "whole program" - each object is a little
 "island" within the program and cooperatively working with other objects.
 * A program is made up of one or more objects working together - objects
 make use of each other's capabilities
 
-OBJECT
+## OBJECT
 * An object is a bit of self-contained Code and Data
 * A key aspect of the Object approach is to break the problem into smaller
 understandable parts (divide and conquer)
@@ -29,7 +29,7 @@ One can have an instance of a class or a particular object. The instance is the 
 TERMINOLOGY: METHOD
 An object's abilities. In language, methods are verbs. Lassie, being a Dog, has the ability to bark. So bark() is one of Lassie's methods. She may have other methods as well, for example sit() or eat() or walk() or save_timmy(). Within the program, using a method usually affects only one particular object; all Dogs can bark, but you need only one particular dog to do the barking.
 
-OBJECT LIFECYCLE
+## OBJECT LIFECYCLE
 * Objects are created, used and discarded
 * We have special blocks of code (methods) that get called
 	* At the moment of creation (constructor)
@@ -38,14 +38,14 @@ OBJECT LIFECYCLE
 * Destructors are seldom used
 * The primary purpose of the constructor is to set up some instance variables to have the proper initial values when the object is created
 
-MANY INSTANCES
+## MANY INSTANCES
 * We can create lots of objects - the class is the template for the object
 * We can store each distinct object in its own variable
 * We call this having multiple instances of the same class
 * Each instance has its own copy of the instance variable
 * Constructors can have additional parameters. These can be used to set up instance variables for the particular instance of the class (i.e., for the particular object)
 
-INHERITANCE
+## INHERITANCE
 * When we make a new class - we can reuse an existing class and inherit all the capabilities of an existing class and then add our own little bit to make our new class
 * Another form of store and reuse
 * Write once - reuse many times
@@ -53,9 +53,9 @@ INHERITANCE
 * 'Subclasses' are more specialized versions of a class, which inherit attributes and behaviors from their parents classes and can introduce their own
 
 
-CLASS = A TEMPLATE
-ATTRIBUTE = A VARIABLE WITHIN A CLASS
-METHOD = A FUNCTION WITHIN A CLASS
-OBJECT = A PARTICULAR INSTANCE OF A CLASS
-CONSTRUCTOR = CODE THAT RUNS WHEN AN OBJECT IS CREATED
+CLASS = A TEMPLATE  
+ATTRIBUTE = A VARIABLE WITHIN A CLASS  
+METHOD = A FUNCTION WITHIN A CLASS  
+OBJECT = A PARTICULAR INSTANCE OF A CLASS  
+CONSTRUCTOR = CODE THAT RUNS WHEN AN OBJECT IS CREATED  
 INHERITANCE = THE ABILITY TO EXTEND A CLASS TO MAKE A NEW CLASS 
