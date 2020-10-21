@@ -1,7 +1,4 @@
-# Introduction
-
-My collection of notes  
-Not useful for you.
+# Notes From Python For Everybody   
 
 [Relational Databases](RDB.md)  
 [APIs](APIs.md)  
