@@ -16,12 +16,8 @@ Dictionary Objects, List Objects...
 detail about "us"
 
 <dl>
-  <dt>Method or Message</dt>
-  <dd>A defined capability of a class</dd>
   <dt>Field or attribute</dt>
   <dd>A bit of data in a class</dd>
-  <dt>Object or Instance</dt>
-  <dd>A particular instance of a class</dd>
   <dt>Attribute</dt>
   <dd>A variable within a class</dd>       
   <dt>Constructor</dt>
