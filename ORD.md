@@ -25,8 +25,8 @@ print(ord('H'))
 
 * To represent the wide range of characters computers must handle we reprsent characters with more than one byte
 
-	UTF-16 = Fixed length - Two bytes
-	UTF-32 = Fixed length - Four bytes
+	UTF-16 = Fixed length - Two bytes  
+	UTF-32 = Fixed length - Four bytes  
 	UTF-8 = 1-4 bytes
 	 * Upwards compatible with ASCII
 	 * Automatic detection between ASCII and UTF-8
