@@ -6,7 +6,7 @@ data
 * It started as a simplified subset of the Standard Generalized Markup
 Language (SGML), and is designed to be relatively human-legible
 
-* XML "Elements" (or Nodes): < is start tag, / is end tag
+* XML "Elements" (or Nodes): <> is start tag, </> is end tag
 ```xml
 <people>
  <person>
