@@ -1,7 +1,6 @@
-Python Dictionary ---> Serialize ---> De-serialize ---> Java HashMap  
-Two types of serialization = XML (older), JSON (newer)
-
 ## XML eXtensible Markup Language:
+* Python Dictionary > Serialize > De-serialize > Java HashMap
+* Two types of serialization XML (older), JSON (newer)
 * Primary purpose is to help information systems share structured
 data
 * It started as a simplified subset of the Standard Generalized Markup
