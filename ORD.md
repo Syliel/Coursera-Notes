@@ -4,8 +4,7 @@
 
 * The ord() function tells us the numeric value of a simple ASCII character
 
-```
-python
+```python
 
 print(ord('H'))
 
@@ -44,8 +43,7 @@ print(ord('H'))
 
 * When we read data from an external resource, we must decode it based on the character set so it is properly represented in Python 3 as a string
 
-```
-python
+```python
 
 while True:
 	data = mysock.recv(512)
